@@ -113,7 +113,7 @@
       signal-desktop
       telegram-desktop
       qbittorrent
-      whatsapp-for-linux
+      #whatsapp-for-linux
       #  thunderbird
       #rbenv
       #ruby_3_3
