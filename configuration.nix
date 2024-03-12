@@ -113,6 +113,7 @@
       signal-desktop
       telegram-desktop
       qbittorrent
+      partition-manager
       #whatsapp-for-linux
       #  thunderbird
       #rbenv
