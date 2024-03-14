@@ -163,6 +163,7 @@
     pkgs.jellyfin
     pkgs.jellyfin-web
     pkgs.jellyfin-ffmpeg
+    pkgs.vscode
     #pkgs.cups-brother-hl1210w
   ];
   programs.vim = {
