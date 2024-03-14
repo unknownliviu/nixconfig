@@ -77,7 +77,7 @@
   };
 
   # Enable CUPS to print documents.
-  services.printing.enable = false;
+  services.printing.enable = true;
   services.printing.drivers = [pkgs.cups-brother-hl1210w];
   services.printing.browsing = true;
   services.printing.browsedConf = ''
