@@ -164,7 +164,7 @@
     pkgs.jellyfin
     pkgs.jellyfin-web
     pkgs.jellyfin-ffmpeg
-    pkgs.cups-brother-hl1210w
+    #pkgs.cups-brother-hl1210w
   ];
   programs.vim = {
     defaultEditor = true;
