@@ -5,12 +5,15 @@
   config,
   pkgs,
   lib,
+  hardware,
   ...
 }: {
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
   ];
+  hardware.opengl.driSupport32Bit = true;
+  hardware.pulseaudio.support32Bit = true;
   # Enable the cron service
   services.cron = {
     enable = true;
