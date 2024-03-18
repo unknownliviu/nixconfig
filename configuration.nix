@@ -29,7 +29,7 @@
   boot.loader.grub.efiSupport = true;
   boot.loader.grub.useOSProber = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.kernel.sysctl = {"vm.swappiness" = 1;};
+  boot.kernel.sysctl = {"vm.swappiness" = 0;};
 
   boot.loader.timeout = 15;
   #swapDevices = lib.mkForce [];
