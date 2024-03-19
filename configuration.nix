@@ -126,6 +126,7 @@
       telegram-desktop
       qbittorrent
       partition-manager
+      discord
       #nice to have, activate on demand
 
       #webtorrent_desktop
