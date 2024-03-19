@@ -126,6 +126,7 @@
       telegram-desktop
       qbittorrent
       partition-manager
+      webtorrent_desktop
       #whatsapp-for-linux
       #  thunderbird
       #rbenv
