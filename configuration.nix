@@ -126,7 +126,9 @@
       telegram-desktop
       qbittorrent
       partition-manager
-      webtorrent_desktop
+      #nice to have, activate on demand
+
+      #webtorrent_desktop
       #whatsapp-for-linux
       #  thunderbird
       #rbenv
