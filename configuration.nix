@@ -127,6 +127,7 @@
       qbittorrent
       partition-manager
       discord
+      libreoffice
       #nice to have, activate on demand
 
       #webtorrent_desktop
