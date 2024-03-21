@@ -129,6 +129,8 @@
       libreoffice
       tmux
       lolcat
+      cowsay
+      sl
       #nice to have, activate on demand
 
       #webtorrent_desktop
