@@ -127,6 +127,7 @@
       qbittorrent
       discord
       libreoffice
+      tmux
       #nice to have, activate on demand
 
       #webtorrent_desktop
