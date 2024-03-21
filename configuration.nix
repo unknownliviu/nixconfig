@@ -125,7 +125,6 @@
       signal-desktop
       telegram-desktop
       qbittorrent
-      partition-manager
       discord
       libreoffice
       #nice to have, activate on demand
