@@ -107,10 +107,12 @@
     description = "liviu";
     extraGroups = ["networkmanager" "wheel" "docker"];
     openssh.authorizedKeys.keys = [
-      #Personal macos
+      # Personal macos
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOCBjQnCtwGZdWYJELVhodBaPjAYjcf5ZXuC8ghE0nq3 marialiviuvalentin@gmail.com"
       # Self key
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAsn7g4+Tby+VLeKrHLmecuuCaR3De/ONC+tICGE2MnE marialiviuvalentin@gmail.com"
+      # GH macos
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDqsK/2eL7X32Q0bi5MUPjf7WTDINVMj5iWWAJxRTWOj mailto:lmaria@grubhub.com"
     ];
     packages = with pkgs; [
       firefox
