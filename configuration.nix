@@ -133,9 +133,8 @@
       lolcat
       cowsay
       sl
-      #nice to have, activate on demand
-
       webtorrent_desktop
+      direnv
       #whatsapp-for-linux
       #  thunderbird
       #rbenv
