@@ -135,7 +135,7 @@
       sl
       #nice to have, activate on demand
 
-      #webtorrent_desktop
+      webtorrent_desktop
       #whatsapp-for-linux
       #  thunderbird
       #rbenv
