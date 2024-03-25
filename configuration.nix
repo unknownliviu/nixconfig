@@ -134,13 +134,13 @@
       cowsay
       sl
       webtorrent_desktop
-      direnv
       #whatsapp-for-linux
       #  thunderbird
       #rbenv
       #ruby_3_3
     ];
   };
+  programs.direnv.enable = true;
   virtualisation.docker.enable = true;
   services.jellyfin = {
     enable = true;
