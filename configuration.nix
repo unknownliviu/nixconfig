@@ -14,6 +14,7 @@
   ];
   hardware.opengl.driSupport32Bit = true;
   hardware.pulseaudio.support32Bit = true;
+
   # Enable the cron service
   services.cron = {
     enable = true;
