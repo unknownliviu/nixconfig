@@ -134,13 +134,13 @@
       cowsay
       sl
       webtorrent_desktop
-      partition-manager
       #whatsapp-for-linux
       #  thunderbird
       #rbenv
       #ruby_3_3
     ];
   };
+  programs.partition-manager.enable = true;
   programs.direnv.enable = true;
   virtualisation.docker.enable = true;
   services.jellyfin = {
