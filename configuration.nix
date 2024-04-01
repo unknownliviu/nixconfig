@@ -134,6 +134,7 @@
       cowsay
       sl
       webtorrent_desktop
+      partition-manager
       #whatsapp-for-linux
       #  thunderbird
       #rbenv
