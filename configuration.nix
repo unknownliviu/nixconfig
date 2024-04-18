@@ -184,14 +184,15 @@
     jellyfin
     jellyfin-web
     jellyfin-ffmpeg
-    (vscode-with-extensions.override {
-      vscodeExtensions = with vscode-extensions; [
-        bbenoist.nix
-        ms-python.python
-        ms-azuretools.vscode-docker
-        ms-vscode-remote.remote-ssh
-      ];
-    })
+    vscode
+    # (vscode-with-extensions.override {
+    #    vscodeExtensions = with vscode-extensions; [
+    #      bbenoist.nix
+    #      ms-python.python
+    #      ms-azuretools.vscode-docker
+    #      ms-vscode-remote.remote-ssh
+    #   ];
+    # })
     #pkgs.cups-brother-hl1210w
   ];
   programs.vim = {
