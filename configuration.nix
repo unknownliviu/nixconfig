@@ -136,7 +136,8 @@
       sl
       webtorrent_desktop
       #whatsapp-for-linux
-      #  thunderbird
+      thunderbird
+
       #rbenv
       #ruby_3_3
     ];
