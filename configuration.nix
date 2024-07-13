@@ -188,6 +188,7 @@
     jellyfin-web
     jellyfin-ffmpeg
     vscode
+    openssh
     # (vscode-with-extensions.override {
     #    vscodeExtensions = with vscode-extensions; [
     #      bbenoist.nix
