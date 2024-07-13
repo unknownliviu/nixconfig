@@ -21,7 +21,7 @@
     systemCronJobs = [
       "55 23 * * *      liviu    /bin/sh -c '/home/liviu/build-plex.sh'"
       "*/1 * * * * 	liviu 	 /bin/sh -c '/home/liviu/plexcheck.sh'"
-      "30 23 * * *      liviu    systemctl suspend "
+      "59 23 * * *      liviu    shutdown "
     ];
   };
   # Bootloader.
