@@ -218,7 +218,7 @@
     settings.PasswordAuthentication = false;
     settings.KbdInteractiveAuthentication = false;
     settings.AllowUsers = ["liviu"];
-    extraConfig = "LoginGracetime 0m";
+    #extraConfig = "LoginGracetime 0m";
   };
   # services.openssh.enable = true;
 
