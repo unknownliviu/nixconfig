@@ -137,7 +137,7 @@
       webtorrent_desktop
       #whatsapp-for-linux
       thunderbird
-
+      ngrok
       #rbenv
       #ruby_3_3
     ];
