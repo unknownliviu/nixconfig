@@ -187,7 +187,9 @@
     jellyfin-web
     jellyfin-ffmpeg
     vscode
+    (callPackage ./cursor.nix {})
     # (vscode-with-extensions.override {
+
     #    vscodeExtensions = with vscode-extensions; [
     #      bbenoist.nix
     #      ms-python.python
