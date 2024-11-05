@@ -7,7 +7,9 @@
   lib,
   hardware,
   ...
-}: {
+}: let
+  unstable = import <nixos-unstable> {config = config.nixpkgs.config;};
+in {
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
@@ -127,7 +129,7 @@
       htop
       signal-desktop
       telegram-desktop
-      qbittorrent
+      unstable.qbittorrent
       discord
       libreoffice
       tmux
